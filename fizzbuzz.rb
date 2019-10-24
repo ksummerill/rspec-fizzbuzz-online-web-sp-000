@@ -4,28 +4,37 @@
 
 # returns "Fizz" when the number is divisible by 3
 # I don't understand why lines 9, 11 and 13 can just have the strings
+
 def fizzbuzz(int)
-  number_3 = (int % 3 == 0)
-  number_5 = (int % 5 == 0)
-  if number_3
-  "Fizz"
-elsif number_5
+  if int % 3 == 0 && int % 5 == 0
+  "FizzBuzz"
+elsif int % 5 == 0
   "Buzz"
-elsif number_3 && number_5
+elsif int % 3 == 0 && int % 5 == 0
   "FizzBuzz"
 else
-   int
+   nil
   end
 end
 
+
+
+
+
+
+
 # def fizzbuzz(int)
-#   if int % 3 == 0
+#   number_3 = (int % 3 == 0)
+#   number_5 = (int % 5 == 0)
+#   if number_3
 #   "Fizz"
-# elsif int % 5 == 0
+# elsif number_5
 #   "Buzz"
-# elsif int % 3 == 0 && int % 5 == 0
+# elsif number_3 && number_5
 #   "FizzBuzz"
 # else
-#    nil
+#    int
 #   end
 # end
+
+
