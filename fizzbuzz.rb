@@ -14,7 +14,7 @@ elsif number_5
 elsif number_3 && number_5
   "FizzBuzz"
 else
-   nil
+   int
   end
 end
 
